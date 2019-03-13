@@ -248,7 +248,8 @@
 				ORGANIZATIONNAME = "15131235520@163.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = RZ8T28E7VE;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -500,8 +501,9 @@
 			baseConfigurationReference = D186781941EB642016685F1E /* Pods-podDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ8T28E7VE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "podDemo/podDemo-Prefix.pch";
 				INFOPLIST_FILE = "podDemo/podDemo-Info.plist";
@@ -518,8 +520,9 @@
 			baseConfigurationReference = 08B14E2C0DB10107807620A5 /* Pods-podDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ8T28E7VE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "podDemo/podDemo-Prefix.pch";
 				INFOPLIST_FILE = "podDemo/podDemo-Info.plist";
